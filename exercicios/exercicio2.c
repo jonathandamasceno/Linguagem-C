@@ -23,4 +23,5 @@ int main(){
 
     printf("media aritimetica: %.2f", media);
 
+    return 0;
 }

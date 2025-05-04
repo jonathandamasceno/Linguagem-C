@@ -11,8 +11,8 @@ elevar ao quadrado x*x
 
 int main(){
     int num1, num2;
-    num1 = 17;
-    num2 = 35;
+    num1 = 3;
+    num2 = 7;
 
     //soma
     int soma = num1 + num2;
@@ -24,7 +24,7 @@ int main(){
     int multiplicacao = num1 * num2;
     printf("%d\n", multiplicacao);
     //divisão
-    float divisao = num1 / num2;
+    float divisao = (float)num1 / (float)num2;
     printf("%.2f\n", divisao);
     //potencia
     int potencia = num1 * num1;

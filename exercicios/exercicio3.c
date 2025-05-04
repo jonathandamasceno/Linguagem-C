@@ -34,4 +34,5 @@ int main(){
     printf("a segunda pessoa vai receber: %.2f, um total de %.0f porcento do valor\n", vr2, (p2*100));
     printf("a terceira pessoa vai receber: %.2f, um total de %.0f porcento do valor", vr3, (p3*100));
 
+    return 0;
 }

@@ -24,4 +24,6 @@ int main(){
     int soma = q1 + q2 + q3;
     printf("A soma dos quadrados de %d, %d e %d e: ", n1, n2, n3);
     printf("%d", soma);
+
+    return 0;
 }

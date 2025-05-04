@@ -25,4 +25,6 @@ int main(){
         }
     }
     printf("%d, %d", maior, menor);
+
+    return 0;
 }
