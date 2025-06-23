@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 
 Faça um programa que tenha uma função que receba 
@@ -9,11 +8,14 @@ maior valor
 */
 
 
-int maior_num(int numeros[]){
+int maior_num(int numeros[], int tam){
+    int maior = 0;
 
-    int maior=0;
-    for(int i=0; i<5; i++){
-        if(i!=0){
+    for(int i=0; i<tam; i++){
+        if(i==0){
+            maior = i;
+            
+        }else{
             if(maior < numeros[i]){
                 maior = numeros[i];
             }
@@ -25,16 +27,16 @@ int maior_num(int numeros[]){
 
 
 int main(){
-    int numeros[5], num_dig;
+    int tam=10,numeros[tam], num_dig;
 
-    for(int i=0; i<5; i++){
+    for(int i=0; i<tam; i++){
         printf("digite o %d numero: \n> ", i+1);
         scanf("%d", &num_dig);
 
         numeros[i] = num_dig;
     }
 
-    printf("%d", inteiros(numeros));
+    printf("%d", maior_num(numeros, tam));
 
     return 0;
 }
