@@ -1,3 +1,0 @@
-nome1 claramente com mais de 10 caractertes nao é possivel
-nome2 
-nome3
