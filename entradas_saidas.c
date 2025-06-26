@@ -2,7 +2,7 @@
     /*
     w = write -> reescrever o conteúdo (ou criar o arquivo)
     r = read
-    wa = adiçao de conteúdo (caso exista o arquivo)
+    a = adiçao de conteúdo (caso exista o arquivo)
     */
 
 int main(){
